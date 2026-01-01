@@ -1,0 +1,15 @@
+git clone https://github.com/mma44331/tests-week-11.git
+
+minikube start
+
+git branch dockerfile
+
+git branch service
+
+git branch commands
+
+git branch pod
+
+git branch screenshot
+
+git checkout commands
