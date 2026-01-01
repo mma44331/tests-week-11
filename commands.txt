@@ -18,3 +18,12 @@ docker build -t my-app .       #בניית ה image
 
 docker run  -p 8080:8080 my-app  #זה בדיקת הרצה של ה image
 
+docker push  mma44331/my-app:latest
+
+
+kubectl apply -f .
+kubevtl get pods
+
+kubectl logs map
+
+kubectl describe pod map

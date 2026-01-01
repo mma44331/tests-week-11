@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: map
+  labels:
+    app: map
+
+spec:
+  containers:
+  - name: map
+    image: mma44331/my-app:latest
+    ports:
+    - containerPort: 8080
